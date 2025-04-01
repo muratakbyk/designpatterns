@@ -8,8 +8,8 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.logging.Logger;
 
-public class InvoiceService {
-    private static final Logger logger = Logger.getLogger(InvoiceService.class.getName());
+public class InvoiceProcessor {
+    private static final Logger logger = Logger.getLogger(InvoiceProcessor.class.getName());
     public void processInvoice(Order order){
         try {
             Invoice invoice = createInvoiceCalculateTaxAndSaveToDatabase(order);
