@@ -1,0 +1,6 @@
+"A class should have only one reason to change."
+
+🎯 Goal: Separate responsibilities
+✅ A class should do only one thing
+🚫 Don’t mix DB saving, email sending, and logging in the same class
+📌 Leads to better testability, readability, and maintainability

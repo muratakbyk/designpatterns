@@ -1,0 +1,6 @@
+"Clients should not be forced to depend on interfaces they do not use."
+
+🎯 Goal: Keep interfaces focused and minimal
+✅ Split large interfaces into smaller, specific ones
+🚫 Don’t force OldPrinter to implement scan() and fax()
+📌 "Do one thing well" applies to interfaces too

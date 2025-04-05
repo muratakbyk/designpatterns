@@ -1,0 +1,7 @@
+"Subtypes must be substitutable for their base types."
+
+🎯 Goal: Ensure subclasses behave like their parents
+✅ A subclass should never break the expectations of the base class
+🚫 Don’t make Penguin extends Bird if Bird.fly() is expected
+📌 Violations cause unexpected runtime bugs
+

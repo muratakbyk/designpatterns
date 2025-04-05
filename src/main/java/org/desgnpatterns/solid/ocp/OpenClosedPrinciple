@@ -1,0 +1,6 @@
+"Software entities should be open for extension but closed for modification."
+
+🎯 Goal: Add new features without changing existing code
+✅ Use interfaces or abstract classes to extend behavior
+🚫 Avoid using if-else for every new case
+📌 Patterns like Strategy and Factory help implement OCP

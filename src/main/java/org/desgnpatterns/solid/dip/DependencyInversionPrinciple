@@ -1,0 +1,6 @@
+"High-level modules should not depend on low-level modules. Both should depend on abstractions."
+
+🎯 Goal: Decouple business logic from implementation details
+✅ Depend on interfaces, not concrete classes
+🚫 Avoid new EmailService() inside your business logic
+📌 Abstractions make systems flexible, testable, and easier to maintain
